@@ -1,0 +1,6 @@
+{
+  "dbUrl" : "jdbc:h2:C:\\\\Users\\\\Vyacheslav\\\\PROJECTS\\\\WORK_WITH_JDBS/test",
+  "initDbSql" : "C:\\Users\\Vyacheslav\\PROJECTS\\WORK_WITH_JDBS\\src\\test/initDb.sql"
+
+
+}

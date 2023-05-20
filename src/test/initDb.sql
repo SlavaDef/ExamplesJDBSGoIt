@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS human(
+id IDENTITY PRIMARY KEY,
+name VARCHAR(30),
+birstday DATE
+);

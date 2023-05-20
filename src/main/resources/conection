@@ -1,0 +1,22 @@
+package org.example;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Main {
+    public static void main(String[] args) throws SQLException {
+
+          // адреса бази h2  ./ вказує що в поточному каталозі
+        String connectionUrl = "jdbc:h2:./test";
+        // буквально дай конекшн по урл
+
+        // cтворюємо стейтмет
+        Statement statement = connection.createStatement();
+        // виконуємо запит
+        statement.executeUpdate("CREATE TABLE test_table (name VARCHAR(100))");
+
+
+    }
+}
